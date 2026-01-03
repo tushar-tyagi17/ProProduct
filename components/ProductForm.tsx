@@ -86,7 +86,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ initialProduct, onSubmit, onC
         
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label className="block text-sm font-semibold text-slate-700 mb-1">Product Name tushar tyagi *</label>
+            <label className="block text-sm font-semibold text-slate-700 mb-1">Product Name *</label>
             <input
               type="text"
               name="name"
